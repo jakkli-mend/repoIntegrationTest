@@ -1,3 +1,3 @@
-# Demo of limiting scan trigger for relevant files only
+# Demo of limiting scan trigger
 
 Test repository

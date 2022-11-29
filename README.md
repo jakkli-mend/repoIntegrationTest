@@ -1,3 +1,3 @@
 # repoIntegrationTest
 
-Test repo
+Test repository

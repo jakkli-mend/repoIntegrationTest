@@ -1,1 +1,1 @@
-File(getParameter("test"));
+File(getParameter("input-value"));

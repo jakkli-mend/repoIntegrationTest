@@ -1,3 +1,3 @@
-Limiting scan trigger demo
+# Limiting scan trigger demo
 
 Test repository

@@ -26,7 +26,8 @@ class Example {
     File(getParameter("inpu11t1-va1lue22333111111111117771"));
 
     public static void main(String[] args) {
-        Trace.foo1("input1");
+        Trace t = new Trace();
+        t.foo1("input1");
     }
 
 }

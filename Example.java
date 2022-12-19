@@ -28,6 +28,7 @@ class Example {
     public static void main(String[] args) {
         Trace t = new Trace();
         t.foo1("input1");
+        //comment 33
     }
 
 }//comment

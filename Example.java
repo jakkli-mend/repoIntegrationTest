@@ -30,4 +30,4 @@ class Example {
         t.foo1("input1");
     }
 
-}
+}//comment

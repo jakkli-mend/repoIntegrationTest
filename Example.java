@@ -12,5 +12,6 @@ class Example {
     File(getParameter("inpu11t1-va1lue22333"));
 
     File(getParameter("inpu11t1-va1lue223331113333"));
+    File(getParameter("inpu1e"));
 
 }

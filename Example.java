@@ -5,6 +5,6 @@ class Example {
 
     File(getParameter("input1-va1lue"));
 
-    File(getParameter("inpu1e"));
+    File(getParameter("inp5u1e"));
 
 }

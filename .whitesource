@@ -4,5 +4,9 @@
     "enableRemediation": true,
     "scanPullRequests": true,
     "incrementalScan": false
+  },
+  "checkRunSettingsSAST": {
+    "checkRunConclusionLevel": "success",
+    "severityThreshold": "low"
   }
 }

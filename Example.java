@@ -8,5 +8,6 @@ class Example {
     File(getParameter("inp53xvbcvu111gsdfcvzxcvg11e"));
     
     File(getParameter("inp5"));
+    File(getParameter("ingsdfgxp5"));
 
 }

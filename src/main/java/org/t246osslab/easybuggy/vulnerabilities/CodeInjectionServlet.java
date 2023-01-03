@@ -31,7 +31,7 @@ public class CodeInjectionServlet extends AbstractServlet {
             bodyHtml.append(getMsg("description.parse.json", locale));
             bodyHtml.append("<br><br>");
             bodyHtml.append(getMsg("label.json.string", locale) + ": ");
-            bodyHtml.append("<textarea name=\"jsonString\" cols=\"80\" rows=\"15\">");
+            bodyHtml.append("<textarea name=\"jsonString1\" cols=\"80\" rows=\"15\">");
             if (!StringUtils.isBlank(jsonString)) {
                 bodyHtml.append(encodeForHTML(jsonString));
             }

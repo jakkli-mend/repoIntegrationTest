@@ -27,7 +27,7 @@ public class CodeInjectionServlet extends AbstractServlet {
 
             StringBuilder bodyHtml = new StringBuilder();
 
-            bodyHtml.append("<form action=\"codei1jc\" method=\"post\">");
+            bodyHtml.append("<form action=\"codei12jc\" method=\"post\">");
             bodyHtml.append(getMsg("description.parse.json", locale));
             bodyHtml.append("<br><br>");
             bodyHtml.append(getMsg("label.json.string", locale) + ": ");

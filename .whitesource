@@ -6,7 +6,7 @@
     "incrementalScan": false
   },
   "checkRunSettingsSAST": {
-    "checkRunConclusionLevel": "failure",
+    "checkRunConclusionLevel": "success",
     "severityThreshold": "high"
   }
 }

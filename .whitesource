@@ -5,8 +5,5 @@
     "scanPullRequests": true,
     "incrementalScan": false
   },
-  "checkRunSettingsSAST": {
-    "checkRunConclusionLevel": "success",
-    "severityThreshold": "high"
-  }
+  "checkRunSettingSAST": {  "checkRunConclusionLevel": "success"}
 }

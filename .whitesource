@@ -1,6 +1,12 @@
 {
   "scanSettingsSAST": {
-    "enableScan": "true",
-    "scanPullRequests": "true"
+    "enableScan": true,
+    "enableRemediation": false,
+    "scanPullRequests": true,
+    "incrementalScan": false
+  },
+  "checkRunSettingsSAST": {
+    "checkRunConclusionLevel": "success",
+    "severityThreshold": "high"
   }
 }

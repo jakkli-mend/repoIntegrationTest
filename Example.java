@@ -5,8 +5,8 @@ class Example {
     
     File(getParameter("ghdg"));
     File(getParameter("asgdjjhjdwerf"));
-    File(getParameter("erfjdgfhghte"));
-    File(getParameter("werdfgt"));
+    File(getParameter("erfjsdfgdgfhghte"));
+    File(getParameter("wsdfgerdfgt"));
 
 
 }

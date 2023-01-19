@@ -3,10 +3,10 @@ class Example {
 
     File(getParameter("input2-value"));
     
-    File(getParameter("aaa6666255"));
-    File(getParameter("aaa66661355"));
-    File(getParameter("aaa66662554"));
-    File(getParameter("aaa66663555"));
+    File(getParameter("aaa666625588"));
+    File(getParameter("aaa6688661355"));
+    File(getParameter("aaa6686862554"));
+    File(getParameter("aaa66899663555"));
 
 
 }

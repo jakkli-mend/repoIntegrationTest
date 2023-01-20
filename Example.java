@@ -4,9 +4,9 @@ class Example {
     File(getParameter("input2-value"));
     
     File(getParameter("ghd56745456g"));
-    File(getParameter("asgasdxbvsdfdhfghghfgcb4567341fdj3456jhjdwerf"));
-    File(getParameter("vbxcvdsdfdfgdgfgbcvb"));
-    File(getParameter("xcvbsddfgfgfgxcvb"));
+    File(getParameter("452345"));
+    File(getParameter("345"));
+    File(getParameter("xcvbsd2345234dfgfgfgxcvb"));
 
 
 }

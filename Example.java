@@ -3,7 +3,7 @@ class Example {
 
     File(getParameter("input2-value"));
     
-    File(getParameter("66"));
-    File(getParameter("77"));
+    File(getParameter("888"));
+    File(getParameter("00000"));
 
 }

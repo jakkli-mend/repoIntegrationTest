@@ -26,10 +26,7 @@
 					method="POST" name="form" action="/WebGoat/HttpBasics/attack2">
 					<script>
 					    webgoat.customjs.assignRandomVal = function () {
-							//var x = 100;
 						    	var x = Math.floor((Math.random() * 100) + 1);
-						    	var y = Math.floor((Math.random() * 200) + 3);
-						    	var z = Math.floor((Math.random() * 400) + 3);
 							document.getElementById("magic_num").value = x;
 						};
 						webgoat.customjs.assignRandomVal();

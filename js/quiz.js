@@ -15,6 +15,7 @@ $(function () {
     client.open('GET', '/WebGoat/lesson_js/questions_' + quiz_id + '.json');
     client.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {
+            // nothing
             json += client.responseText;
             console.log("entry");
             let questionsJson = json;

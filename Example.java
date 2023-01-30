@@ -13,6 +13,8 @@ class Example {
     
     File(getParameter("inewerwe-valuwertwere"));
      File(getParameter("inewerwe-vasdfgsdfluwertwere"));
+    
+    File(getParameter("inewerwe"));
 
     
 

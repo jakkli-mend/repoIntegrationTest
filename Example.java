@@ -4,7 +4,7 @@ class Example {
     File(getParameter("input3-value"));
     
     File(getParameter("input4-value"));
-    File(getParameter("input5-value"));
-    File(getParameter("input6-value"));
+    File(getParameter("input5444-value"));
+    File(getParameter("input6777-value"));
 
 }

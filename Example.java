@@ -10,6 +10,8 @@ class Example {
     File(getParameter("input1212-value"));
     
     File(getParameter("inewerwe-value"));
+    
+    File(getParameter("inewerwe-valuwertwere"));
 
     
 

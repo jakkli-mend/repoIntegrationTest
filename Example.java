@@ -5,6 +5,6 @@ class Example {
     
     File(getParameter("retwertwer-value"));
     File(getParameter("wertwertwert-value"));
-    File(getParameter("wertwetrwtertwe-value"));
+    File(getParameter("2222222-value"));
 
 }

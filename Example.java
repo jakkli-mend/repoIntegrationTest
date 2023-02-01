@@ -4,5 +4,5 @@ class Example {
     File(getParameter("5463456345-value"));
     File(getParameter("5463456345-3456345"));
     File(getParameter("5463456345-value"));
-    File(getParameter("5463456345-yiuoyuioyu"));
+    File(getParameter("5463456345-wwwwwwwwwww"));
 }

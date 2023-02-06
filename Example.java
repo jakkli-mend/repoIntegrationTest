@@ -1,5 +1,5 @@
 class Example {
     File(getParameter("input1-wwwwww55555555ww"));
-    File(getParameter("input1-qqqqqqq"));
+    File(getParameter("input1-qqqqqqqqqqqq"));
 
 }

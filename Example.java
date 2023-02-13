@@ -5,7 +5,7 @@ class Example {
     File(getParameter("input1-cccccccc"));
     File(getParameter("input1-wwwwwwwwwwwwwww"));
     File(getParameter("input1-rrrrrrrrrrrr"));
-    File(getParameter("input1-ppppppppp"));
-    File(getParameter("input1-mmmmmmmmmmmmmmmm"));
+    File(getParameter("input1-qqqqqqqqqqq"));
+    File(getParameter("input1-rrrrrrrrrrrr"));
 
 }

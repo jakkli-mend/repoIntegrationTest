@@ -9,6 +9,7 @@
     "enableScan": true,
     "scanPullRequests": false,
     "incrementalScan": true,
+    "enableRemediation": true,
     "configExternalURL": "",
     "baseBranches": [],
     "snippetSize": 10

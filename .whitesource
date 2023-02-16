@@ -4,7 +4,7 @@
   },
   "scanSettingsSAST": {
     "enableScan": true,
-    "scanPullRequests": false,
+    "scanPullRequests": true,
     "incrementalScan": true,
     "enableRemediation": false,
     "configMode": "LOCAL",

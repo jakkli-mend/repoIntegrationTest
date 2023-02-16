@@ -1,0 +1,8 @@
+{
+  "scanConfig" : {
+    "SAST": {
+      "runMendEngines": true,
+      "maxFileSize": 2048
+    }
+  }
+}

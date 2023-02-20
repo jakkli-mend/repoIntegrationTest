@@ -6,7 +6,7 @@
     "enableScan": true,
     "scanPullRequests": true,
     "incrementalScan": true,
-    "enableRemediation": false,
+    "enableRemediation": true,
     "configMode": "LOCAL",
     "configExternalURL": "",
     "baseBranches": []

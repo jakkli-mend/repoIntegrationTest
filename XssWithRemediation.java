@@ -31,7 +31,7 @@ import java.io.FileNotFoundException;
 import java.io.PrintWriter;
 
 @Slf4j
-public class Ping6 {
+public class XssWithRemediation {
 
     @Value("${webgoat.user.directory}")
     private String webGoatHomeDirectory;

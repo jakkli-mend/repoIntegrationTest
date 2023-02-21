@@ -38,11 +38,11 @@ import java.sql.*;
 
 @RestController
 @AssignmentHints(value = {"SqlStringInjectionHint5b1", "SqlStringInjectionHint5b2", "SqlStringInjectionHint5b3", "SqlStringInjectionHint5b4"})
-public class SqlInjectionLesson5c extends AssignmentEndpoint {
+public class SqlInjectionLesson5b extends AssignmentEndpoint {
 
     private final LessonDataSource dataSource;
 
-    public SqlInjectionLesson5c(LessonDataSource dataSource) {
+    public SqlInjectionLesson5b(LessonDataSource dataSource) {
         this.dataSource = dataSource;
     }
 

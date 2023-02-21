@@ -20,7 +20,7 @@
  * Source for this application is maintained at https://github.com/WebGoat/WebGoat, a repository for free software projects.
  */
 
-package org.owasp.webgoat.lessons.sqlinjection.introduction;
+package sqli.main.java.org.owasp.webgoat.lessons.sqlinjection.introduction;
 
 import org.owasp.webgoat.container.LessonDataSource;
 import org.owasp.webgoat.container.assignments.AssignmentEndpoint;
@@ -38,11 +38,11 @@ import java.sql.*;
 
 @RestController
 @AssignmentHints(value = {"SqlStringInjectionHint5b1", "SqlStringInjectionHint5b2", "SqlStringInjectionHint5b3", "SqlStringInjectionHint5b4"})
-public class SqlInjectionLesson5a extends AssignmentEndpoint {
+public class SqlInjectionLesson5c extends AssignmentEndpoint {
 
     private final LessonDataSource dataSource;
 
-    public SqlInjectionLesson5a(LessonDataSource dataSource) {
+    public SqlInjectionLesson5c(LessonDataSource dataSource) {
         this.dataSource = dataSource;
     }
 
@@ -55,8 +55,6 @@ public class SqlInjectionLesson5a extends AssignmentEndpoint {
     protected AttackResult injectableQuery(String login_count, String accountName) {
         String queryString = "SELECT * From user_data WHERE Login_Count = ? and userid= " + accountName;
         try (Connection connection = dataSource.getConnection()) {
-
-
             PreparedStatement query = connection.prepareStatement(queryString, ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_READ_ONLY);
 
             int count = 0;

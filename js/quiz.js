@@ -32,9 +32,6 @@ $(function () {
                   html += "</fieldset></div>";
                 });
             });
-            //comment
-                 
-                 
             document.getElementById("q_container").innerHTML = html;
         }
     }

@@ -27,7 +27,7 @@
     "configMode": "LOCAL",
     "configExternalURL": "",
     "baseBranches": []
-  }
+  },
   "checkRunSettingsSAST": {
     "checkRunConclusionLevel": "failure",
     "severityThreshold": "high"

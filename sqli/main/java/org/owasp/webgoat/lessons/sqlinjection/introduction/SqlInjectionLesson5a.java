@@ -56,6 +56,7 @@ public class SqlInjectionLesson5a extends AssignmentEndpoint {
         String queryString = "SELECT * From user_data WHERE Login_Count = ? and userid= " + accountName;
         try (Connection connection = dataSource.getConnection()) {
             //comment
+
             PreparedStatement query = connection.prepareStatement(queryString, ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_READ_ONLY);
             int count = 0;
             try {

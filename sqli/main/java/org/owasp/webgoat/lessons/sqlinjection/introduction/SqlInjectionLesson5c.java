@@ -38,11 +38,11 @@ import java.sql.*;
 
 @RestController
 @AssignmentHints(value = {"SqlStringInjectionHint5b1", "SqlStringInjectionHint5b2", "SqlStringInjectionHint5b3", "SqlStringInjectionHint5b4"})
-public class SqlInjectionLesson5b extends AssignmentEndpoint {
+public class SqlInjectionLesson5c extends AssignmentEndpoint {
 
     private final LessonDataSource dataSource;
 
-    public SqlInjectionLesson5b(LessonDataSource dataSource) {
+    public SqlInjectionLesson5c(LessonDataSource dataSource) {
         this.dataSource = dataSource;
     }
 
@@ -79,7 +79,7 @@ public class SqlInjectionLesson5b extends AssignmentEndpoint {
                     ResultSetMetaData resultsMetaData = results.getMetaData();
                     StringBuilder output = new StringBuilder();
 
-                    output.append(SqlInjectionLesson5b.writeTable(results, resultsMetaData));
+                    output.append(SqlInjectionLesson5c.writeTable(results, resultsMetaData));
                     results.last();
 
                     // If they get back more than one user they succeeded

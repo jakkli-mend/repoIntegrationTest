@@ -1,6 +1,6 @@
 {
   "scans": {
-      "runMendEngines": true,
+      "runMendEngines": false,
       "maxFileSize": 4096
     }
 }

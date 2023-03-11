@@ -22,7 +22,7 @@
   "scanSettingsSAST": {
     "enableScan": true,
     "scanPullRequests": true,
-    "incrementalScan": true,
+    "incrementalScan": false,
     "enableRemediation": false,
     "configMode": "LOCAL",
     "configExternalURL": "",

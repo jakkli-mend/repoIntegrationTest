@@ -1,4 +1,4 @@
 class Example {
     File(getParameter("input1-aaa"));
-    File(getParameter("input1-uuuuuuu"));
+    File(getParameter("input1-zzzzzzzz"));
 }

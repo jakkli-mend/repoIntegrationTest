@@ -1,6 +1,6 @@
 {
   "scans": {
-      "runMendEngines": false,
+      "javaEngineGeneration": 2,
       "maxFileSize": 4096
     }
 }

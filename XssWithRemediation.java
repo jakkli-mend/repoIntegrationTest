@@ -43,7 +43,7 @@ public class XssWithRemediation {
     public String logRequest(@RequestHeader("User-Agent") String userAgent, @RequestParam(required = false) String text) {
         String logLine = String.format("%s %s %s", "GET", userAgent, text);
         log.debug(logLine);
-        File logFile = new File(webGoatHomeDirectory, "/XXE/log" + webSession.getUserName() + ".txt");
+        File logFile = new File(webGoatHomeDirectory, "/XXE/log" + webSession.getUserName() + ".txttt");
         try {
             try (PrintWriter pw = new PrintWriter(logFile)) {
                 pw.println(logLine);

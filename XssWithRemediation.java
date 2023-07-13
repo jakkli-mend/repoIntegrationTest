@@ -49,7 +49,7 @@ public class XssWithRemediation {
                 pw.println(logLine);
             }
         } catch (FileNotFoundException e) {
-            log.error("Error occurred while writing to the logfil7e2", e);
+            log.error("Error occurred while writing to the logfil7e22", e);
         }
         return "";
     }

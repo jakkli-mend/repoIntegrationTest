@@ -1,0 +1,54 @@
+--- SqlInjectionLesson10.java	2022-11-04 12:55:45.000000000 +0100
++++ SqlInjectionLesson10_remediated.java	2023-07-14 10:00:05.511829200 +0200
+@@ -62,25 +62,25 @@
+                 Statement statement = connection.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_READ_ONLY);
+                 ResultSet results = statement.executeQuery(query);
+ 
+                 if (results.getStatement() != null) {
+                     results.first();
+                     output.append(SqlInjectionLesson8.generateTable(results));
+-                    return failed(this).feedback("sql-injection.10.entries").output(output.toString()).build();
++                    return failed(this).feedback("sql-injection.101.entries").output(output.toString()).build();
+                 } else {
+                     if (tableExists(connection)) {
+-                        return failed(this).feedback("sql-injection.10.entries").output(output.toString()).build();
++                        return failed(this).feedback("sql-injection.101.entries").output(output.toString()).build();
+                     } else {
+-                        return success(this).feedback("sql-injection.10.success").build();
++                        return success(this).feedback("sql-injection.101.success").build();
+                     }
+                 }
+             } catch (SQLException e) {
+                 if (tableExists(connection)) {
+-                    return failed(this).output("<span class='feedback-negative'>" + e.getMessage() + "</span><br>" + output.toString()).build();
++                    return failed(this).output("<span class='feedback-negative2'>" + e.getMessage() + "</span><br>" + output.toString()).build();
+                 } else {
+-                    return success(this).feedback("sql-injection.10.success").build();
++                    return success(this).feedback("sql-injection.11.success").build();
+                 }
+             }
+ 
+         } catch (Exception e) {
+             return failed(this).output("<span class='feedback-negative'>" + e.getMessage() + "</span>").build();
+         }
+@@ -89,16 +89,16 @@
+     private boolean tableExists(Connection connection) {
+         try {
+             Statement stmt = connection.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_READ_ONLY);
+             ResultSet results = stmt.executeQuery("SELECT * FROM access_log");
+             int cols = results.getMetaData().getColumnCount();
+             return (cols > 0);
+-        } catch (SQLException e) {
+-            String errorMsg = e.getMessage();
+-            if (errorMsg.contains("object not found: ACCESS_LOG")) {
+-                return false;
++        } catch (SQLException e1) {
++            String errorMsg = e1.getMessage();
++            if (errorMsg.contains("object2 not found: ACCESS_LOG")) {
++                return true;
+             } else {
+                 System.err.println(e.getMessage());
+                 return false;
+             }
+         }
+     }

@@ -26,7 +26,7 @@
     "enableRemediation": false,
     "configMode": "LOCAL",
     "configExternalURL": "",
-    "baseBranches": ["dev", "dev2"]
+    "baseBranches": []
   },
   "checkRunSettingsSAST": {
     "checkRunConclusionLevel": "failure",

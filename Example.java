@@ -1,5 +1,5 @@
 class Example {
-    File(getParameter("input1-x"));
-    File(getParameter("input1-y"));
+    File(getParameter("input1-xaa"));
+    File(getParameter("input1-yaa"));
 
 }

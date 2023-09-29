@@ -31,7 +31,7 @@ import java.io.FileNotFoundException;
 import java.io.PrintWriter;
 
 @Slf4j
-public class XssWithRemediation {
+public class XssWithRemediation2 {
 
     @Value("${webgoat.user.directory}")
     private String webGoatHomeDirectory;

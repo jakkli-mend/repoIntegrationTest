@@ -23,6 +23,7 @@
 package org.owasp.webgoat.lessons.xxe;
 
 import lombok.extern.slf4j.Slf4j;
+import io.whitesource.cure.Encoder;
 import org.owasp.webgoat.container.session.WebSession;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
@@ -47,8 +48,11 @@ public class Ping {
     @RequestMapping(method = RequestMethod.GET)
     @ResponseBody
     public String logRequest(@RequestHeader("User-Agent") String userAgent, @RequestParam(required = false) String text) {
+        String logLine_sanitized;
         String test = "";
         String test2 = "";
+        logLine_sanitized = String.format("%s %s %s", "GET", Encoder.forHtmlContentXss(userAgent),
+                Encoder.forHtmlContentXss(text));
         //comment
         //comment 2
         //comment 3
@@ -59,7 +63,7 @@ public class Ping {
         File logFile = new File(webGoatHomeDirectory, "/XXE/log" + webSession.getUserName() + ".txt");
         try {
             try (PrintWriter pw = new PrintWriter(logFile)) {
-                pw.println(logLine);
+                pw.println(logLine_sanitized);
             }
         } catch (FileNotFoundException e) {
             log.error("Error occurred while writing the logfile", e);

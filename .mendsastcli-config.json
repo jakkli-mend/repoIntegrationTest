@@ -1,14 +1,9 @@
 {
   "scans": {
       "javaEngineGeneration": 1,
-      "maxFileSize": 1028,
-      "threshold": {
-            "high": 5,
-            "medium": 5,
-            "low": 5,
-            "cwe": ["CWE-79"],
-            "runtime": 1281,
-            "onlyOnNew": false
+      "maxFileSize": 1029,
+      "timeouts": {
+         "perScan": 1281
       }
     }
 }

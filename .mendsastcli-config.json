@@ -1,6 +1,14 @@
 {
   "scans": {
       "javaEngineGeneration": 1,
-      "maxFileSize": 1025
+      "maxFileSize": 1028,
+      "threshold": {
+            "high": 1,
+            "medium": 2,
+            "low": 3,
+            "cwe": ["CWE-79"],
+            "runtime": 1280,
+            "onlyOnNew": false
+      }
     }
 }

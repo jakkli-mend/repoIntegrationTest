@@ -1,4 +1,4 @@
-{
+m{
   "scanSettings": {
     "configMode": "AUTO",
     "configExternalURL": "",
@@ -30,6 +30,6 @@
   },
   "checkRunSettingsSAST": {
     "checkRunConclusionLevel": "failure",
-    "severityThreshold": "low"
+    "severityThreshold": "medium"
   }
 }

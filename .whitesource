@@ -15,8 +15,8 @@
     "issueType": "DEPENDENCY"
   },
   "issueSettingsSAST": {
-    "minSeverityLevel": "medium",
-    "issueType": "repo"
+    "minSeverityLevel": "low",
+    "issueType": "finding"
   },
   "remediateSettings": {
     "workflowRules": {

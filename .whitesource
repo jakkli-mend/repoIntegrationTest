@@ -16,7 +16,7 @@
   },
   "issueSettingsSAST": {
     "minSeverityLevel": "medium",
-    "issueType": "finding"
+    "issueType": "repo"
   },
   "remediateSettings": {
     "workflowRules": {

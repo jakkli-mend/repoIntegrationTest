@@ -1,0 +1,222 @@
+2024/03/05 19:03:20 SAST CLI version: 1.0 GitCommit: 
+2024/03/05 19:03:20 OS environment: windows
+2024/03/05 19:03:20 SAST CLI context: deedb868ab59d63614aedacdefa1017c2566991bd4ee70
+2024/03/05 19:03:20 Proxy set: false
+2024/03/05 19:03:20 SAST Connection URL: https://dev.whitesourcesoftware.com
+2024/03/05 19:03:20 Target directory: D:\workspace\_test-projects\awsPython\
+2024/03/05 19:03:20 Cache path: C:\Users\jakkli\.mendsastcli
+2024/03/05 19:03:20 Total CPU: 20
+2024/03/05 19:03:20 Total Memory: 63
+2024/03/05 19:03:20 Command line arguments: C:\Users\jakkli\AppData\Local\JetBrains\IntelliJIdea2023.3\tmp\GoLand\___2go_build_main_go_mend.exe --scope pyh1 --dir D:/workspace/_test-projects/awsPython --remediate=false -j 2 --js 2 --cs 2 --config D:/workspace/CLI/out/mendsastcli-config-mend.json
+2024/03/05 19:03:20 SAST environment variables: MEND_SAST_CONFIG_FILE=D:/workspace/CLI/out/mendsastcli-config-mend.json; MEND_SAST_CSHARP_ENGINE_GENERATION=2; MEND_SAST_JAVA_ENGINE_GENERATION=2; MEND_SAST_JS_ENGINE_GENERATION=2; MEND_SAST_REMEDIATION=false; MEND_SAST_SCOPE=pyh1; MEND_SAST_TARGET_DIRECTORY=D:\workspace\_test-projects\awsPython\
+2024/03/05 19:03:20 SAST CLI configuration: {
+  "connection": {
+    "email": "*************",
+    "token": "*************",
+    "url": "https://dev.whitesourcesoftware.com",
+    "organizationId": "",
+    "timeoutMin": 10
+  },
+  "proxy": {
+    "enabled": false,
+    "url": "",
+    "username": "*************",
+    "password": "*************"
+  },
+  "cachePath": "C:\\Users\\jakkli\\.mendsastcli",
+  "scans": {
+    "engines": [],
+    "directory": "D:\\workspace\\_test-projects\\awsPython\\",
+    "application": "",
+    "scope": "pyh1",
+    "template": "",
+    "submitSnippets": true,
+    "submitLogs": true,
+    "snippetSize": 10,
+    "exclusions": [],
+    "noDefaultExclusions": false,
+    "disableDefaultExclusions": false,
+    "incremental": false,
+    "uploadBaseline": false,
+    "baselineStorage": "C:\\Users\\jakkli\\.mendsastcli",
+    "containerImage": "docker.io/library/ubuntu",
+    "retries": 0,
+    "threshold": {
+      "high": 0,
+      "medium": 0,
+      "low": 0,
+      "cwe": [],
+      "runtime": 480,
+      "onlyOnNew": false
+    },
+    "timeouts": {
+      "perLanguage": 480,
+      "perFile": 60
+    },
+    "maxFileSize": 1024
+  },
+  "reports": {
+    "generate": false,
+    "formats": [
+      "pdf"
+    ],
+    "type": "",
+    "level": "",
+    "filename": ""
+  },
+  "logs": {
+    "storageSizeLimit": 2048
+  },
+  "noColor": false,
+  "noProgress": false,
+  "nonInteractive": false
+}
+2024/03/05 19:03:20 [WARNING] Error cleaning up lowercase file C:\Users\jakkli\.mendsastcli\mend-fs-test-file-mpjcsub4: remove C:\Users\jakkli\.mendsastcli\mend-fs-test-file-mpjcsub4: The process cannot access the file because it is being used by another process.
+2024/03/05 19:03:20 Directory MEND_FILE_SYSTEM_CASE_SENSITIVE is case sensitive: false
+2024/03/05 19:03:20 Mend connection URL: https://dev.whitesourcesoftware.com
+2024/03/05 19:03:21 Detected Mend environment, unified platform only user
+2024/03/05 19:03:22 Logged into organisation JakubOrg2 (27320731-3131-4f5d-8489-94c601eda620)
+2024/03/05 19:03:22 Stored new refresh token valid until 2024-03-07T19:03:21+01:00 (valid for 47h59m59s
+2024/03/05 19:03:22 Stored new access token valid until 2024-03-06T19:03:21+01:00 (valid for 23h59m59s
+2024/03/05 19:03:23 [WARNING] SAST CLI is not up to date. Current: 1.0. Latest: 24.2.1.10
+2024/03/05 19:03:23 [SCM] Resolving type for github.com
+2024/03/05 19:03:23 [SCM] Resolved type 'github' for github.com
+2024/03/05 19:03:23 [SCM] Analysis result: {"commit":{"Id":"e8e47bb1f4b8690b477fc35a3899003bfff7c75d","Time":"2023-10-25T18:46:07+02:00"},"branch":{"name":"main","upstream":{"remoteName":"origin","branch":"main","isPushed":true},"type":"base"},"remotes":[{"name":"origin","url":{"scheme":"ssh","host":"github.com","port":0,"path":"/jakkli-mend/awsPython"},"type":"github","hasCommit":true,"defaultBranch":""}]}
+2024/03/05 19:03:23 [SCM] Analysis completed in 100ms
+2024/03/05 19:03:25 
+Checking for SAST engine updates...
+2024/03/05 19:03:27 Languages: Python
+2024/03/05 19:03:29 Created a new project pyh1
+2024/03/05 19:03:31 Active Mend scope:
+2024/03/05 19:03:31 Org:         27320731-3131-4f5d-8489-94c601eda620 (JakubOrg2)
+2024/03/05 19:03:31 Application: e357f8dd-2a06-447e-9a55-c6cf333dafc6 (jakkli-mend)
+2024/03/05 19:03:31 Project:     88aceead-a624-4b74-9251-0be8efa2223f (pyh1)
+2024/03/05 19:03:31 Scan:        2c9bc971-7602-49b6-bb03-8f3e523f69b5 (Scan-awsPython-2024/03/05 07:03:23 PM)
+2024/03/05 19:03:31 Capabilities:
+2024/03/05 19:03:31 - sourceFileScanningEnabled=true
+2024/03/05 19:03:31 - containerSecurityAccess=false
+2024/03/05 19:03:31 - failBuildOnViolations=true
+2024/03/05 19:03:31 - isIgnoreAsyncCheckPoliciesForDomain=false
+2024/03/05 19:03:31 - isAsyncCheckPolicies=false
+2024/03/05 19:03:31 - cnAccess=false
+2024/03/05 19:03:31 - entitlementsSupport=false
+2024/03/05 19:03:31 - enableMLSnippetsInPlatform=true
+2024/03/05 19:03:31 - enableMSCInPlatform=true
+2024/03/05 19:03:31 - automationEngine=true
+2024/03/05 19:03:31 - riskWorkSpaceSupport=true
+2024/03/05 19:03:31 - multiProductSupport=true
+2024/03/05 19:03:31 - scaAutomationEngine=true
+2024/03/05 19:03:31 - persistVersionPSB=24.2.2
+2024/03/05 19:03:31 - reachabilityLanguages=JAVA,JAVA_SCRIPT
+2024/03/05 19:03:31 - trendsWidget=false
+2024/03/05 19:03:31 - reachabilitySupport=false
+2024/03/05 19:03:31 - nextAccess=true
+2024/03/05 19:03:31 - scaAccess=true
+2024/03/05 19:03:31 - dashboardTrends=true
+2024/03/05 19:03:31 - aiBomSupportEnabled=true
+2024/03/05 19:03:31 - swiftSupportEnabled=true
+2024/03/05 19:03:31 - reachabilityDryRun=false
+2024/03/05 19:03:31 - llmAccess=false
+2024/03/05 19:03:31 - appLogo=default
+2024/03/05 19:03:31 - isUploadScaClientLogs=true
+2024/03/05 19:03:31 - sastAccess=true
+2024/03/05 19:03:31 - developerPlatformLicenseGenerationEnabled=true
+2024/03/05 19:03:31 - imgAccess=false
+2024/03/05 19:03:31 - updateLatestEngines=false
+2024/03/05 19:03:31 - psbIgnoreLockFile=true
+2024/03/05 19:03:31 - codeFindingsNewDesign=false
+2024/03/05 19:03:31 - enableExploitabilityInPlatform=true
+2024/03/05 19:03:31 - aiRemediation=false
+2024/03/05 19:03:31 - detailedScaResultsInfo=false
+2024/03/05 19:03:31 - codeGlobalScanConfig=false
+2024/03/05 19:03:31 - legacyScaLink=true
+2024/03/05 19:03:31 - mendForDevAccess=false
+2024/03/05 19:03:31 - sourceFilesSupport=true
+2024/03/05 19:03:31 - platformAccess=true
+2024/03/05 19:03:31 - systemDashboardSupport=true
+2024/03/05 19:03:31 - sastRemediation=false
+2024/03/05 19:03:31 - cliVersionControl=true
+2024/03/05 19:03:31 - collectUsageAnalytics=false
+2024/03/05 19:03:31 - isScaWrapperScan=false
+2024/03/05 19:03:31 - enableCvss4InPlatform=true
+2024/03/05 19:03:31 - iacAccess=false
+2024/03/05 19:03:31 - enableReachabilityInPlatform=true
+2024/03/05 19:03:31 - api2Access=true
+2024/03/05 19:03:31 - preScanBuilderEnabled=true
+2024/03/05 19:03:31 - sbtSupportEnabled=false
+2024/03/05 19:03:31 - preferredScanEngine=Cli
+2024/03/05 19:03:31 Testing application files from D:\workspace\_test-projects\awsPython\
+2024/03/05 19:03:31 Engines version: 24.1.2.5 (Python)
+2024/03/05 19:03:31 Python analysis in progress...
+2024/03/05 19:03:31 Python engine activity: Analyzing source code files.
+2024/03/05 19:03:31 Python engine activity: Excluded file: D:\workspace\_test-projects\awsPython\.git\config 
+2024/03/05 19:03:31 Python engine activity: Excluded file: D:\workspace\_test-projects\awsPython\.git\description 
+2024/03/05 19:03:31 Python engine activity: Excluded file: D:\workspace\_test-projects\awsPython\.git\HEAD 
+2024/03/05 19:03:31 Python engine activity: Excluded file: D:\workspace\_test-projects\awsPython\.git\index 
+2024/03/05 19:03:31 Python engine activity: Excluded file: D:\workspace\_test-projects\awsPython\.git\packed-refs 
+2024/03/05 19:03:31 Python engine activity: Excluded file: D:\workspace\_test-projects\awsPython\.git\hooks\applypatch-msg.sample 
+2024/03/05 19:03:31 Python engine activity: Excluded file: D:\workspace\_test-projects\awsPython\.git\hooks\commit-msg.sample 
+2024/03/05 19:03:31 Python engine activity: Excluded file: D:\workspace\_test-projects\awsPython\.git\hooks\fsmonitor-watchman.sample 
+2024/03/05 19:03:31 Python engine activity: Excluded file: D:\workspace\_test-projects\awsPython\.git\hooks\post-update.sample 
+2024/03/05 19:03:31 Python engine activity: Excluded file: D:\workspace\_test-projects\awsPython\.git\hooks\pre-applypatch.sample 
+2024/03/05 19:03:31 Python engine activity: Excluded file: D:\workspace\_test-projects\awsPython\.git\hooks\pre-commit.sample 
+2024/03/05 19:03:31 Python engine activity: Excluded file: D:\workspace\_test-projects\awsPython\.git\hooks\pre-merge-commit.sample 
+2024/03/05 19:03:31 Python engine activity: Excluded file: D:\workspace\_test-projects\awsPython\.git\hooks\pre-push.sample 
+2024/03/05 19:03:31 Python engine activity: Excluded file: D:\workspace\_test-projects\awsPython\.git\hooks\pre-rebase.sample 
+2024/03/05 19:03:31 Python engine activity: Excluded file: D:\workspace\_test-projects\awsPython\.git\hooks\pre-receive.sample 
+2024/03/05 19:03:31 Python engine activity: Excluded file: D:\workspace\_test-projects\awsPython\.git\hooks\prepare-commit-msg.sample 
+2024/03/05 19:03:31 Python engine activity: Excluded file: D:\workspace\_test-projects\awsPython\.git\hooks\update.sample 
+2024/03/05 19:03:31 Python engine activity: Excluded file: D:\workspace\_test-projects\awsPython\.git\info\exclude 
+2024/03/05 19:03:31 Python engine activity: Excluded file: D:\workspace\_test-projects\awsPython\.git\logs\HEAD 
+2024/03/05 19:03:31 Python engine activity: Excluded file: D:\workspace\_test-projects\awsPython\.git\logs\refs\heads\main 
+2024/03/05 19:03:31 Python engine activity: Excluded file: D:\workspace\_test-projects\awsPython\.git\logs\refs\remotes\origin\HEAD 
+2024/03/05 19:03:31 Python engine activity: Excluded file: D:\workspace\_test-projects\awsPython\.git\objects\pack\pack-88582140e6f25da077ec011ef9002888ec2cbc2e.idx 
+2024/03/05 19:03:31 Python engine activity: Excluded file: D:\workspace\_test-projects\awsPython\.git\objects\pack\pack-88582140e6f25da077ec011ef9002888ec2cbc2e.pack 
+2024/03/05 19:03:31 Python engine activity: Excluded file: D:\workspace\_test-projects\awsPython\.git\refs\heads\main 
+2024/03/05 19:03:31 Python engine activity: Excluded file: D:\workspace\_test-projects\awsPython\.git\refs\remotes\origin\HEAD 
+2024/03/05 19:03:31 Python engine activity: Done reading from dumper file...
+2024/03/05 19:03:31 Python engine activity: Starting Python source code audit.
+2024/03/05 19:03:31 Python engine activity: Analyzing file (0/1) - D:\workspace\_test-projects\awsPython\aws.py
+2024/03/05 19:03:31 Python engine activity: Analyzing file (1/1) - D:\workspace\_test-projects\awsPython\ip-overlay.py
+2024/03/05 19:03:31 Python engine activity: Preparing for analysis... 
+2024/03/05 19:03:31 Python engine activity: Preparing file D:\workspace\_test-projects\awsPython\aws.py
+2024/03/05 19:03:31 Python engine activity: Preparing file D:\workspace\_test-projects\awsPython\ip-overlay.py
+2024/03/05 19:03:31 Python engine activity: Analyzing methods... 
+2024/03/05 19:03:31 Python engine activity: Pushing files to queue... 
+2024/03/05 19:03:31 Python engine activity: Running threads... 
+2024/03/05 19:03:31 Python engine activity: Using 20 CPU cores. 
+2024/03/05 19:03:31 Python engine activity: New file stats message with TotalFiles=2 and TestedFiles=0
+2024/03/05 19:03:31 Python engine activity: New file stats message with TotalFiles=2 and TestedFiles=0
+2024/03/05 19:03:31 Python engine activity: (9) Scanning file (377) D:\workspace\_test-projects\awsPython\ip-overlay.py
+2024/03/05 19:03:31 Python engine activity: (1) Scanning file (123) D:\workspace\_test-projects\awsPython\aws.py
+2024/03/05 19:03:31 Python engine activity: New Hardcoded Password/Credentials finding with sink "Hardcoded Credentials " and source "Hardcoded Credentials - AWS_KEY"
+2024/03/05 19:03:31 Python engine activity: New Hardcoded Password/Credentials finding with sink "Hardcoded Credentials " and source "Hardcoded Credentials - AWS_KEY"
+2024/03/05 19:03:31 Python engine activity: New Hardcoded Password/Credentials finding with sink "Hardcoded Credentials " and source "Hardcoded Credentials - SECRET"
+2024/03/05 19:03:31 Python engine activity: New Hardcoded Password/Credentials finding with sink "Hardcoded Credentials " and source "Hardcoded Credentials - ACCESS_KEY"
+2024/03/05 19:03:31 Python engine activity: New Hardcoded Password/Credentials finding with sink "Hardcoded Credentials " and source "Hardcoded Credentials - SECRET"
+2024/03/05 19:03:31 skipping vulnerability type 19 in engine 4, reason: duplicate data flow hash
+2024/03/05 19:03:31 Python engine activity: New Hardcoded Password/Credentials finding with sink "Hardcoded Credentials " and source "Hardcoded Credentials - ACCESS_KEY"
+2024/03/05 19:03:31 Python engine finding post-processing: Ignored Hardcoded Password/Credentials finding with sink "Hardcoded Credentials " and source "Hardcoded Credentials - ACCESS_KEY" due to: Known data flow
+2024/03/05 19:03:31 Python engine activity: New Hardcoded Password/Credentials finding with sink "Hardcoded Credentials " and source "Hardcoded Credentials - ACCESS_KEY"
+2024/03/05 19:03:31 Python engine activity: New Hardcoded Password/Credentials finding with sink "Hardcoded Credentials " and source "Hardcoded Credentials - SECRET"
+2024/03/05 19:03:31 skipping vulnerability type 19 in engine 4, reason: duplicate data flow hash
+2024/03/05 19:03:31 Python engine activity: New Hardcoded Password/Credentials finding with sink "Hardcoded Credentials " and source "Hardcoded Credentials - ACCESS_KEY"
+2024/03/05 19:03:31 Python engine finding post-processing: Ignored Hardcoded Password/Credentials finding with sink "Hardcoded Credentials " and source "Hardcoded Credentials - ACCESS_KEY" due to: Known data flow
+2024/03/05 19:03:31 Python engine activity: New Hardcoded Password/Credentials finding with sink "Hardcoded Credentials " and source "Hardcoded Credentials - ACCESS_KEY"
+2024/03/05 19:03:31 Python engine activity: New Hardcoded Password/Credentials finding with sink "Hardcoded Credentials " and source "Hardcoded Credentials - SECRET"
+2024/03/05 19:03:31 skipping vulnerability type 19 in engine 4, reason: duplicate data flow hash
+2024/03/05 19:03:31 Python engine activity: New Hardcoded Password/Credentials finding with sink "Hardcoded Credentials " and source "Hardcoded Credentials - ACCESS_KEY"
+2024/03/05 19:03:31 Python engine finding post-processing: Ignored Hardcoded Password/Credentials finding with sink "Hardcoded Credentials " and source "Hardcoded Credentials - ACCESS_KEY" due to: Known data flow
+2024/03/05 19:03:31 Python engine activity: (1) Done Scanning file D:\workspace\_test-projects\awsPython\aws.py
+2024/03/05 19:03:31 Python engine activity: (9) Done Scanning file D:\workspace\_test-projects\awsPython\ip-overlay.py
+2024/03/05 19:03:31 Python engine activity: New code stats message with TotalLines=35 and CurrentLine=0
+2024/03/05 19:03:31 Python engine activity: New code stats message with TotalLines=35 and CurrentLine=0
+2024/03/05 19:03:31 Python engine activity: New file stats message with TotalFiles=2 and TestedFiles=2
+2024/03/05 19:03:31 Python engine activity: New code stats message with TotalLines=0 and CurrentLine=0
+2024/03/05 19:03:31 Finished message received
+2024/03/05 19:03:31 Python engine returned an exit code - exit status 1
+Analyzed 2 out of 2 files
+2024/03/05 19:03:31 engine process exited
+2024/03/05 19:03:40 
+Submitting code snippet files...
+2024/03/05 19:03:42 Code snippet files have been submitted for processing.

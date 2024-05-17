@@ -1,0 +1,157 @@
+2024/03/05 18:59:08 SAST CLI version: 1.0 GitCommit: 
+2024/03/05 18:59:08 OS environment: windows
+2024/03/05 18:59:08 SAST CLI context: 857773c68436450f0ec71207032e6d0ff0be2487e2ac74
+2024/03/05 18:59:08 Proxy set: false
+2024/03/05 18:59:08 SAST Connection URL: https://dev.whitesourcesoftware.com
+2024/03/05 18:59:08 Target directory: D:\workspace\_test-projects\bitwarden\
+2024/03/05 18:59:08 Cache path: C:\Users\jakkli\.mendsastcli
+2024/03/05 18:59:08 Total CPU: 20
+2024/03/05 18:59:08 Total Memory: 63
+2024/03/05 18:59:08 Command line arguments: C:\Users\jakkli\AppData\Local\JetBrains\IntelliJIdea2023.3\tmp\GoLand\___2go_build_main_go_mend.exe --scope bi1 --dir D:/workspace/_test-projects/bitwarden --remediate=false -j 2 --js 2 --cs 2 --config D:/workspace/CLI/out/mendsastcli-config-mend.json
+2024/03/05 18:59:08 SAST environment variables: MEND_SAST_CONFIG_FILE=D:/workspace/CLI/out/mendsastcli-config-mend.json; MEND_SAST_CSHARP_ENGINE_GENERATION=2; MEND_SAST_JAVA_ENGINE_GENERATION=2; MEND_SAST_JS_ENGINE_GENERATION=2; MEND_SAST_REMEDIATION=false; MEND_SAST_SCOPE=bi1; MEND_SAST_TARGET_DIRECTORY=D:\workspace\_test-projects\bitwarden\
+2024/03/05 18:59:08 SAST CLI configuration: {
+  "connection": {
+    "email": "*************",
+    "token": "*************",
+    "url": "https://dev.whitesourcesoftware.com",
+    "organizationId": "",
+    "timeoutMin": 10
+  },
+  "proxy": {
+    "enabled": false,
+    "url": "",
+    "username": "*************",
+    "password": "*************"
+  },
+  "cachePath": "C:\\Users\\jakkli\\.mendsastcli",
+  "scans": {
+    "engines": [],
+    "directory": "D:\\workspace\\_test-projects\\bitwarden\\",
+    "application": "",
+    "scope": "bi1",
+    "template": "",
+    "submitSnippets": true,
+    "submitLogs": true,
+    "snippetSize": 10,
+    "exclusions": [],
+    "noDefaultExclusions": false,
+    "disableDefaultExclusions": false,
+    "incremental": false,
+    "uploadBaseline": false,
+    "baselineStorage": "C:\\Users\\jakkli\\.mendsastcli",
+    "containerImage": "docker.io/library/ubuntu",
+    "retries": 0,
+    "threshold": {
+      "high": 0,
+      "medium": 0,
+      "low": 0,
+      "cwe": [],
+      "runtime": 480,
+      "onlyOnNew": false
+    },
+    "timeouts": {
+      "perLanguage": 480,
+      "perFile": 60
+    },
+    "maxFileSize": 1024
+  },
+  "reports": {
+    "generate": false,
+    "formats": [
+      "pdf"
+    ],
+    "type": "",
+    "level": "",
+    "filename": ""
+  },
+  "logs": {
+    "storageSizeLimit": 2048
+  },
+  "noColor": false,
+  "noProgress": false,
+  "nonInteractive": false
+}
+2024/03/05 18:59:08 [WARNING] Error cleaning up lowercase file C:\Users\jakkli\.mendsastcli\mend-fs-test-file-j02rpx8z: remove C:\Users\jakkli\.mendsastcli\mend-fs-test-file-j02rpx8z: The process cannot access the file because it is being used by another process.
+2024/03/05 18:59:08 Directory MEND_FILE_SYSTEM_CASE_SENSITIVE is case sensitive: false
+2024/03/05 18:59:08 Mend connection URL: https://dev.whitesourcesoftware.com
+2024/03/05 18:59:09 Detected Mend environment, unified platform only user
+2024/03/05 18:59:09 Logged into organisation JakubOrg2 (27320731-3131-4f5d-8489-94c601eda620)
+2024/03/05 18:59:09 Stored new refresh token valid until 2024-03-07T18:59:09+01:00 (valid for 47h59m59s
+2024/03/05 18:59:09 Stored new access token valid until 2024-03-06T18:59:09+01:00 (valid for 23h59m59s
+2024/03/05 18:59:11 [WARNING] SAST CLI is not up to date. Current: 1.0. Latest: 24.2.1.10
+2024/03/05 18:59:11 [SCM] Resolving type for github-new.whitesourcedev.com
+2024/03/05 18:59:11 [SCM] Resolved type 'github' for github-new.whitesourcedev.com
+2024/03/05 18:59:11 [SCM] Analysis result: {"commit":{"Id":"9335a84a7224e9ad2e3655d1baac6ddb1a4bb1da","Time":"2024-02-14T21:07:28+01:00"},"branch":{"name":"main","upstream":{"remoteName":"origin","branch":"main","isPushed":true},"type":"base"},"remotes":[{"name":"origin","url":{"scheme":"ssh","host":"github-new.whitesourcedev.com","port":0,"path":"/JakubOrg/bitwarden"},"type":"github","hasCommit":true,"defaultBranch":""}]}
+2024/03/05 18:59:11 [SCM] Analysis completed in 100ms
+2024/03/05 18:59:13 
+Checking for SAST engine updates...
+2024/03/05 19:00:40 Languages: JavaScript / TypeScript*,C#*
+2024/03/05 19:00:43 Active Mend scope:
+2024/03/05 19:00:43 Org:         27320731-3131-4f5d-8489-94c601eda620 (JakubOrg2)
+2024/03/05 19:00:43 Application: f4879c86-cf6a-4d8e-a11f-d6387526bf5a (JakubOrg)
+2024/03/05 19:00:43 Project:     9990fcf7-eb45-4383-a00b-4192bda072da (bi1)
+2024/03/05 19:00:43 Scan:        4d49504e-5de2-4afe-b6ff-e363ca70cb39 (Scan-bitwarden-2024/03/05 06:59:11 PM)
+2024/03/05 19:00:43 Capabilities:
+2024/03/05 19:00:43 - developerPlatformLicenseGenerationEnabled=true
+2024/03/05 19:00:43 - enableExploitabilityInPlatform=true
+2024/03/05 19:00:43 - platformAccess=true
+2024/03/05 19:00:43 - detailedScaResultsInfo=false
+2024/03/05 19:00:43 - aiRemediation=false
+2024/03/05 19:00:43 - enableMLSnippetsInPlatform=true
+2024/03/05 19:00:43 - nextAccess=true
+2024/03/05 19:00:43 - cnAccess=false
+2024/03/05 19:00:43 - mendForDevAccess=false
+2024/03/05 19:00:43 - psbIgnoreLockFile=true
+2024/03/05 19:00:43 - failBuildOnViolations=true
+2024/03/05 19:00:43 - isAsyncCheckPolicies=false
+2024/03/05 19:00:43 - scaAccess=true
+2024/03/05 19:00:43 - reachabilitySupport=false
+2024/03/05 19:00:43 - legacyScaLink=true
+2024/03/05 19:00:43 - updateLatestEngines=false
+2024/03/05 19:00:43 - containerSecurityAccess=false
+2024/03/05 19:00:43 - preferredScanEngine=Cli
+2024/03/05 19:00:43 - scaAutomationEngine=true
+2024/03/05 19:00:43 - appLogo=default
+2024/03/05 19:00:43 - sourceFileScanningEnabled=true
+2024/03/05 19:00:43 - cliVersionControl=true
+2024/03/05 19:00:43 - isScaWrapperScan=false
+2024/03/05 19:00:43 - reachabilityDryRun=false
+2024/03/05 19:00:43 - sourceFilesSupport=true
+2024/03/05 19:00:43 - llmAccess=false
+2024/03/05 19:00:43 - collectUsageAnalytics=false
+2024/03/05 19:00:43 - codeGlobalScanConfig=false
+2024/03/05 19:00:43 - preScanBuilderEnabled=true
+2024/03/05 19:00:43 - imgAccess=false
+2024/03/05 19:00:43 - sbtSupportEnabled=false
+2024/03/05 19:00:43 - systemDashboardSupport=true
+2024/03/05 19:00:43 - enableCvss4InPlatform=true
+2024/03/05 19:00:43 - automationEngine=true
+2024/03/05 19:00:43 - sastAccess=true
+2024/03/05 19:00:43 - codeFindingsNewDesign=false
+2024/03/05 19:00:43 - enableMSCInPlatform=true
+2024/03/05 19:00:43 - trendsWidget=false
+2024/03/05 19:00:43 - isUploadScaClientLogs=true
+2024/03/05 19:00:43 - api2Access=true
+2024/03/05 19:00:43 - entitlementsSupport=false
+2024/03/05 19:00:43 - dashboardTrends=true
+2024/03/05 19:00:43 - iacAccess=false
+2024/03/05 19:00:43 - persistVersionPSB=24.2.2
+2024/03/05 19:00:43 - aiBomSupportEnabled=true
+2024/03/05 19:00:43 - reachabilityLanguages=JAVA,JAVA_SCRIPT
+2024/03/05 19:00:43 - swiftSupportEnabled=true
+2024/03/05 19:00:43 - multiProductSupport=true
+2024/03/05 19:00:43 - riskWorkSpaceSupport=true
+2024/03/05 19:00:43 - sastRemediation=false
+2024/03/05 19:00:43 - isIgnoreAsyncCheckPoliciesForDomain=false
+2024/03/05 19:00:43 - enableReachabilityInPlatform=true
+2024/03/05 19:00:43 Testing application files from D:\workspace\_test-projects\bitwarden\
+2024/03/05 19:00:43 C#* analysis in progress...
+2024/03/05 19:00:47 CLASSPATH value before unsetting: 
+2024/03/05 19:02:11 JavaScript / TypeScript* analysis in progress...
+2024/03/05 19:02:11 CLASSPATH value before unsetting: 
+2024/03/05 19:02:23 [INFO] MESSAGE=The following error occurs while executing the protocol analysis for language JavaScript: No entry points found for running taint analysis.; ID=; CODE=2101; LEVEL=INFO; WHATTODO=Please verify that this is a web project or check that the entry points have been specified successfully; 
+2024/03/05 19:02:23 [JavaScript]: No entry points found for running taint analysis.
+2024/03/05 19:02:25 Engines version: 24.3.1.73 (C#*), 24.3.1.73 (JavaScript)
+2024/03/05 19:02:33 
+Submitting code snippet files...
+2024/03/05 19:02:35 Code snippet files have been submitted for processing.

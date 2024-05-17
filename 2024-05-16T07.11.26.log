@@ -1,0 +1,173 @@
+2024/05/16 10:11:26 SAST CLI version: 24.5.2.4 GitCommit: 64fa85b0e3b32c0523c384db568bde540a6ad2fc
+2024/05/16 10:11:26 OS environment: windows
+2024/05/16 10:11:26 SAST CLI context: 0a1d8217f7c2c1bb31bbe686895454585af50e34cc7d95
+2024/05/16 10:11:26 Proxy set: false
+2024/05/16 10:11:26 SAST Connection URL: https://dev.whitesourcesoftware.com
+2024/05/16 10:11:26 Target directory: C:\dev\sources\ai-bar\whitesource-testcases-java\RemediationProjects\CWE_79\aylson-parent\
+2024/05/16 10:11:26 Cache path: C:\Users\GuyHudara\.mend\storage\sast
+2024/05/16 10:11:26 Total CPU: 12
+2024/05/16 10:11:26 Total Memory: 31
+2024/05/16 10:11:26 Command line arguments: C:\Users\GuyHudara\.mend\bin\sast\sast.exe --js-engine-generation=2 --java-engine-generation=2 --csharp-engine-generation=2 --engines=101 --upload-baseline --dir C:/dev/sources/ai-bar/whitesource-testcases-java/RemediationProjects/CWE_79/aylson-parent
+2024/05/16 10:11:26 SAST environment variables: MEND_SAST_API_TOKEN=************; MEND_SAST_CACHE_PATH=C:\Users\GuyHudara\.mend\storage\sast; MEND_SAST_CONFIG_SarifFile=c:/dev/temp/sarif/temp.sarif; MEND_SAST_CONFIG_SaveSarifResultsToTmp=true; MEND_SAST_CSHARP_ENGINE_GENERATION=2; MEND_SAST_EMAIL=************; MEND_SAST_ENGINES=101; MEND_SAST_JAVA_ENGINE_GENERATION=2; MEND_SAST_JS_ENGINE_GENERATION=2; MEND_SAST_NO_INCREMENTAL_SCAN_OPTIMIZATION=true; MEND_SAST_ORGANIZATION=4bb4da2e-8dd8-42ed-baf0-a57291c1f459; MEND_SAST_TARGET_DIRECTORY=C:\dev\sources\ai-bar\whitesource-testcases-java\RemediationProjects\CWE_79\aylson-parent\; MEND_SAST_UPLOAD_BASELINE=true
+2024/05/16 10:11:26 SAST CLI configuration: {
+  "connection": {
+    "email": "*************",
+    "token": "*************",
+    "url": "https://dev.whitesourcesoftware.com",
+    "organizationId": "4bb4da2e-8dd8-42ed-baf0-a57291c1f459",
+    "timeoutMin": 10
+  },
+  "proxy": {
+    "enabled": false,
+    "url": "",
+    "username": "*************",
+    "password": "*************"
+  },
+  "cachePath": "C:\\Users\\GuyHudara\\.mend\\storage\\sast",
+  "scans": {
+    "engines": [
+      101
+    ],
+    "directory": "C:\\dev\\sources\\ai-bar\\whitesource-testcases-java\\RemediationProjects\\CWE_79\\aylson-parent\\",
+    "application": "",
+    "template": "",
+    "submitSnippets": true,
+    "submitLogs": true,
+    "snippetSize": 10,
+    "exclusions": [],
+    "noDefaultExclusions": false,
+    "disableDefaultExclusions": false,
+    "incremental": false,
+    "uploadBaseline": true,
+    "baselineStorage": "C:\\Users\\GuyHudara\\.mend\\storage\\sast",
+    "containerImage": "docker.io/library/ubuntu",
+    "retries": 0,
+    "threshold": {
+      "high": 0,
+      "medium": 0,
+      "low": 0,
+      "cwe": null,
+      "runtime": 0,
+      "onlyOnNew": false
+    },
+    "timeouts": {
+      "perLanguage": 480,
+      "perFile": 60
+    },
+    "maxFileSize": 1024
+  },
+  "reports": {
+    "generate": false,
+    "formats": null,
+    "type": "",
+    "level": "",
+    "filename": ""
+  },
+  "logs": {
+    "storageSizeLimit": 2048
+  },
+  "noColor": false,
+  "noProgress": false,
+  "nonInteractive": false
+}
+2024/05/16 10:11:26 Directory MEND_FILE_SYSTEM_CASE_SENSITIVE is case sensitive: false
+2024/05/16 10:11:26 Mend connection URL: https://dev.whitesourcesoftware.com
+2024/05/16 10:11:28 Detected Mend environment, unified platform only user
+2024/05/16 10:11:29 Logged into organisation WSAC (4bb4da2e-8dd8-42ed-baf0-a57291c1f459)
+2024/05/16 10:11:29 Stored new refresh token valid until 2024-05-18T10:11:35+03:00 (valid for 48h0m6s
+2024/05/16 10:11:29 Stored new access token valid until 2024-05-17T10:11:35+03:00 (valid for 24h0m6s
+2024/05/16 10:11:30 Active features: [UPPermissionsCheck SecureCodeWarrior AppLevelHistoricalData GroupedFindingsPhase2 IncrementalScanOnBase GetLatestApplicationsScanV2 SignaturesV2Phase1 MendEngines GetAllScansV2 ScanCompleteEvent JsonLogsUpload OpenAIRemediationV2 Remediation GroupedFindingsPhase1]
+2024/05/16 10:11:30 [ERROR] error getting remediation support mapping: error getting remediation support data: request failed with HTTP code 404
+2024/05/16 10:11:30 [ERROR] remediation mapping request failed
+2024/05/16 10:11:30 Overriding environmental variable MEND_SAST_JAVA_ENGINE_GENERATION to "2" (prev value: "2")
+2024/05/16 10:11:30 Overriding environmental variable MEND_SAST_CSHARP_ENGINE_GENERATION to "2" (prev value: "2")
+2024/05/16 10:11:30 Overriding environmental variable MEND_SAST_JS_ENGINE_GENERATION to "2" (prev value: "2")
+2024/05/16 10:11:30 Based on the organization feature flag Python 1x engine will be used in case of Python project.
+2024/05/16 10:11:30 Overriding environmental variable MEND_SAST_PYTHON_ENGINE_GENERATION to "1" (prev value: "")
+2024/05/16 10:11:31 [SCM] Directory is not a git repository: directory is not a git repository
+2024/05/16 10:11:31 [SCM] Analysis completed in 0s
+2024/05/16 10:11:31 [ERROR] error opening git repository to select scope: directory is not a git repository
+2024/05/16 10:11:34 
+Checking for SAST engine updates...
+2024/05/16 10:11:38 Languages: Java*
+2024/05/16 10:11:42 Active Mend scope:
+2024/05/16 10:11:42 Org:         4bb4da2e-8dd8-42ed-baf0-a57291c1f459 (WSAC)
+2024/05/16 10:11:42 Application: cdcb0db0-f3d3-4f3e-b724-3e831fa11627 (CLI)
+2024/05/16 10:11:42 Project:     0b22c784-e81a-4c0d-89cd-5b67689507d0 (aylson-parent)
+2024/05/16 10:11:42 Scan:        9bedcb03-6609-493d-aede-12cce8a5167d (Scan-aylson-parent-2024/05/16 10:11:31 AM)
+2024/05/16 10:11:42 Capabilities:
+2024/05/16 10:11:42 - cliVersionControl=false
+2024/05/16 10:11:42 - aiBomSupportEnabled=true
+2024/05/16 10:11:42 - sastRemediation=true
+2024/05/16 10:11:42 - isIgnoreAsyncCheckPoliciesForDomain=false
+2024/05/16 10:11:42 - swiftSupportEnabled=false
+2024/05/16 10:11:42 - scaPolicyEnabled=false
+2024/05/16 10:11:42 - dastAccess=false
+2024/05/16 10:11:42 - enableMLSnippetsInPlatform=true
+2024/05/16 10:11:42 - api2Access=true
+2024/05/16 10:11:42 - sbtSupportEnabled=false
+2024/05/16 10:11:42 - failBuildOnViolations=true
+2024/05/16 10:11:42 - updateLatestEngines=false
+2024/05/16 10:11:42 - codeFindingsNewDesign=true
+2024/05/16 10:11:42 - aiRemediation=false
+2024/05/16 10:11:42 - platformAccess=true
+2024/05/16 10:11:42 - multiProductSupport=true
+2024/05/16 10:11:42 - containerSecurityAccess=false
+2024/05/16 10:11:42 - sastAccess=true
+2024/05/16 10:11:42 - sourceFilesSupport=true
+2024/05/16 10:11:42 - isScaWrapperScan=false
+2024/05/16 10:11:42 - trendsWidget=true
+2024/05/16 10:11:42 - imgAccess=false
+2024/05/16 10:11:42 - preferredScanEngine=Cli
+2024/05/16 10:11:42 - legacyScaLink=false
+2024/05/16 10:11:42 - llmAccess=false
+2024/05/16 10:11:42 - scaAccess=false
+2024/05/16 10:11:42 - isUploadScaClientLogs=true
+2024/05/16 10:11:42 - psbIgnoreLockFile=true
+2024/05/16 10:11:42 - riskWorkSpaceSupport=true
+2024/05/16 10:11:42 - nextAccess=true
+2024/05/16 10:11:42 - mendForDevAccess=true
+2024/05/16 10:11:42 - sourceFileScanningEnabled=true
+2024/05/16 10:11:42 - sastNewGenerationEngines=["JAVA","JAVASCRIPT"]
+2024/05/16 10:11:42 - codeGlobalScanConfig=false
+2024/05/16 10:11:42 - developerPlatformLicenseGenerationEnabled=true
+2024/05/16 10:11:42 - isAsyncCheckPolicies=false
+2024/05/16 10:11:42 - automationEngine=true
+2024/05/16 10:11:42 - detailedScaResultsInfo=false
+2024/05/16 10:11:42 - persistVersionPSB=
+2024/05/16 10:11:42 - systemDashboardSupport=true
+2024/05/16 10:11:42 - appLogo=default
+2024/05/16 10:11:42 - reachabilityLanguages=JAVA,JAVA_SCRIPT
+2024/05/16 10:11:42 - entitlementsSupport=false
+2024/05/16 10:11:42 - dashboardTrends=true
+2024/05/16 10:11:42 - collectUsageAnalytics=false
+2024/05/16 10:11:42 - scaAutomationEngine=true
+2024/05/16 10:11:42 - coreAccess=false
+2024/05/16 10:11:42 - reachabilityDryRun=false
+2024/05/16 10:11:42 - preScanBuilderEnabled=true
+2024/05/16 10:11:42 - enableAttributionReportAdvancedCapabilities=false
+2024/05/16 10:11:42 - reachabilitySupport=false
+2024/05/16 10:11:43 [WARNING] Excluded for size: C:\dev\sources\ai-bar\whitesource-testcases-java\RemediationProjects\CWE_79\aylson-parent\aylson-manage\src\main\webapp\resources\js\echarts\echarts.js (2603014)
+2024/05/16 10:11:43 [WARNING] Excluded for size: C:\dev\sources\ai-bar\whitesource-testcases-java\RemediationProjects\CWE_79\aylson-parent\aylson-manage\src\main\webapp\resources\plugs\ace\src-min\worker-xquery.js (1633461)
+2024/05/16 10:11:43 Testing application files from C:\dev\sources\ai-bar\whitesource-testcases-java\RemediationProjects\CWE_79\aylson-parent\
+2024/05/16 10:11:43 Contributors could not be retrieved: directory is not a git repository
+2024/05/16 10:11:43 Java* analysis in progress...
+2024/05/16 10:11:43 Creating worker pool for computing signatures with 12 workers and queue size 4096
+2024/05/16 10:11:43 [WARNING] Failed to open repository for signatures worker: directory is not a git repository
+2024/05/16 10:11:43 [WARNING] Failed to open repository for signatures worker: directory is not a git repository
+2024/05/16 10:11:43 [WARNING] Failed to open repository for signatures worker: directory is not a git repository
+2024/05/16 10:11:43 [WARNING] Failed to open repository for signatures worker: directory is not a git repository
+2024/05/16 10:11:43 [WARNING] Failed to open repository for signatures worker: directory is not a git repository
+2024/05/16 10:11:43 [WARNING] Failed to open repository for signatures worker: directory is not a git repository
+2024/05/16 10:11:43 [WARNING] Failed to open repository for signatures worker: directory is not a git repository
+2024/05/16 10:11:43 [WARNING] Failed to open repository for signatures worker: directory is not a git repository
+2024/05/16 10:11:43 [WARNING] Failed to open repository for signatures worker: directory is not a git repository
+2024/05/16 10:11:43 [WARNING] Failed to open repository for signatures worker: directory is not a git repository
+2024/05/16 10:11:43 [WARNING] Failed to open repository for signatures worker: directory is not a git repository
+2024/05/16 10:11:43 [WARNING] Failed to open repository for signatures worker: directory is not a git repository
+2024/05/16 10:11:44 JVM heap size set to -Xmx26g
+2024/05/16 10:11:44 CLASSPATH value before unsetting: 
+2024/05/16 10:15:04 Waiting for partial signatures took 0s (0ms)
+2024/05/16 10:15:18 Fetching historical data for engine 101
+2024/05/16 10:15:39 Engines version: 24.5.2.356 (Java), 24.5.2.356 (JavaScript), 24.5.2.1 (ASP), 24.5.2.356 (C#*), 24.5.2.1 (PHP)
+2024/05/16 10:16:03 Using cached historical data for engine 101

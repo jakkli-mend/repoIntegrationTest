@@ -1,0 +1,150 @@
+2024/03/18 11:31:16 SAST CLI version: 1.0 GitCommit: 
+2024/03/18 11:31:16 OS environment: windows
+2024/03/18 11:31:16 SAST CLI context: db51a1dbf4e36726eba093201458ef0adace4113cec96e
+2024/03/18 11:31:16 Proxy set: false
+2024/03/18 11:31:16 SAST Connection URL: https://dev.whitesourcesoftware.com
+2024/03/18 11:31:16 Target directory: D:\workspace\_test-projects\sql-injection\
+2024/03/18 11:31:16 Cache path: C:\Users\jakkli\.mendsastcli
+2024/03/18 11:31:16 Total CPU: 20
+2024/03/18 11:31:16 Total Memory: 63
+2024/03/18 11:31:16 Command line arguments: C:\Users\jakkli\AppData\Local\JetBrains\IntelliJIdea2023.3\tmp\GoLand\___go_build_main_go_mend.exe --scope jav2 --dir D:/workspace/_test-projects/sql-injection --remediate=false -j 2 --js 2 --cs 2 --config D:/workspace/CLI/out/mendsastcli-config-mend.json
+2024/03/18 11:31:16 SAST environment variables: MEND_SAST_CONFIG_FILE=D:/workspace/CLI/out/mendsastcli-config-mend.json; MEND_SAST_CSHARP_ENGINE_GENERATION=2; MEND_SAST_JAVA_ENGINE_GENERATION=2; MEND_SAST_JS_ENGINE_GENERATION=2; MEND_SAST_REMEDIATION=false; MEND_SAST_SCOPE=jav2; MEND_SAST_TARGET_DIRECTORY=D:\workspace\_test-projects\sql-injection\
+2024/03/18 11:31:16 SAST CLI configuration: {
+  "connection": {
+    "email": "*************",
+    "token": "*************",
+    "url": "https://dev.whitesourcesoftware.com",
+    "organizationId": "",
+    "timeoutMin": 10
+  },
+  "proxy": {
+    "enabled": false,
+    "url": "",
+    "username": "*************",
+    "password": "*************"
+  },
+  "cachePath": "C:\\Users\\jakkli\\.mendsastcli",
+  "scans": {
+    "engines": [],
+    "directory": "D:\\workspace\\_test-projects\\sql-injection\\",
+    "application": "",
+    "scope": "jav2",
+    "template": "",
+    "submitSnippets": true,
+    "submitLogs": true,
+    "snippetSize": 10,
+    "exclusions": [],
+    "noDefaultExclusions": false,
+    "disableDefaultExclusions": false,
+    "incremental": false,
+    "uploadBaseline": false,
+    "baselineStorage": "C:\\Users\\jakkli\\.mendsastcli",
+    "containerImage": "docker.io/library/ubuntu",
+    "retries": 0,
+    "threshold": {
+      "high": 0,
+      "medium": 0,
+      "low": 0,
+      "cwe": [],
+      "runtime": 480,
+      "onlyOnNew": false
+    },
+    "timeouts": {
+      "perLanguage": 480,
+      "perFile": 60
+    },
+    "maxFileSize": 1024
+  },
+  "reports": {
+    "generate": false,
+    "formats": [
+      "pdf"
+    ],
+    "type": "",
+    "level": "",
+    "filename": ""
+  },
+  "logs": {
+    "storageSizeLimit": 2048
+  },
+  "noColor": false,
+  "noProgress": false,
+  "nonInteractive": false
+}
+2024/03/18 11:31:16 [WARNING] Error cleaning up lowercase file C:\Users\jakkli\.mendsastcli\mend-fs-test-file-7acz8v4r: remove C:\Users\jakkli\.mendsastcli\mend-fs-test-file-7acz8v4r: The process cannot access the file because it is being used by another process.
+2024/03/18 11:31:16 Directory MEND_FILE_SYSTEM_CASE_SENSITIVE is case sensitive: false
+2024/03/18 11:31:16 Mend connection URL: https://dev.whitesourcesoftware.com
+2024/03/18 11:31:17 Detected Mend environment, unified platform only user
+2024/03/18 11:31:18 Logged into organisation JakubOrg2 (27320731-3131-4f5d-8489-94c601eda620)
+2024/03/18 11:31:18 Stored new refresh token valid until 2024-03-20T11:31:18+01:00 (valid for 48h0m0s
+2024/03/18 11:31:18 Stored new access token valid until 2024-03-19T11:31:18+01:00 (valid for 24h0m0s
+2024/03/18 11:31:18 Based on the organization feature flag Python 1x engine will be used in case of Python project.
+2024/03/18 11:31:19 [WARNING] SAST CLI is not up to date. Current: 1.0. Latest: 24.2.2.17
+2024/03/18 11:31:19 [SCM] Directory is not a git repository: directory is not a git repository
+2024/03/18 11:31:19 [SCM] Analysis completed in 0s
+2024/03/18 11:31:19 [ERROR] error opening git repository to select scope: directory is not a git repository
+2024/03/18 11:31:21 
+Checking for SAST engine updates...
+2024/03/18 11:31:48 Languages: Java*
+2024/03/18 11:31:50 Created a new project jav2
+2024/03/18 11:31:51 Active Mend scope:
+2024/03/18 11:31:51 Org:         27320731-3131-4f5d-8489-94c601eda620 (JakubOrg2)
+2024/03/18 11:31:51 Application: 27d982c2-eb91-448d-a13a-5c609ebea561 (CLI)
+2024/03/18 11:31:51 Project:     f91e5ed2-a9c2-41b7-b426-165fa740e7f6 (jav2)
+2024/03/18 11:31:51 Scan:        16ae57ba-633e-40c3-8eff-32825b96ec97 (Scan-sql-injection-2024/03/18 11:31:19 AM)
+2024/03/18 11:31:51 Capabilities:
+2024/03/18 11:31:51 - multiProductSupport=true
+2024/03/18 11:31:51 - isScaWrapperScan=false
+2024/03/18 11:31:51 - preferredScanEngine=Cli
+2024/03/18 11:31:51 - detailedScaResultsInfo=false
+2024/03/18 11:31:51 - failBuildOnViolations=true
+2024/03/18 11:31:51 - scaAutomationEngine=true
+2024/03/18 11:31:51 - legacyScaLink=true
+2024/03/18 11:31:51 - cliVersionControl=true
+2024/03/18 11:31:51 - imgAccess=false
+2024/03/18 11:31:51 - api2Access=true
+2024/03/18 11:31:51 - psbIgnoreLockFile=true
+2024/03/18 11:31:51 - nextAccess=true
+2024/03/18 11:31:51 - preScanBuilderEnabled=true
+2024/03/18 11:31:51 - isIgnoreAsyncCheckPoliciesForDomain=false
+2024/03/18 11:31:51 - entitlementsSupport=false
+2024/03/18 11:31:51 - automationEngine=true
+2024/03/18 11:31:51 - collectUsageAnalytics=false
+2024/03/18 11:31:51 - enableMLSnippetsInPlatform=true
+2024/03/18 11:31:51 - reachabilityDryRun=false
+2024/03/18 11:31:51 - sourceFileScanningEnabled=true
+2024/03/18 11:31:51 - sbtSupportEnabled=false
+2024/03/18 11:31:51 - updateLatestEngines=false
+2024/03/18 11:31:51 - mendForDevAccess=false
+2024/03/18 11:31:51 - platformAccess=true
+2024/03/18 11:31:51 - aiBomSupportEnabled=true
+2024/03/18 11:31:51 - systemDashboardSupport=true
+2024/03/18 11:31:51 - coreAccess=true
+2024/03/18 11:31:51 - trendsWidget=false
+2024/03/18 11:31:51 - reachabilityLanguages=JAVA,JAVA_SCRIPT
+2024/03/18 11:31:51 - swiftSupportEnabled=true
+2024/03/18 11:31:51 - riskWorkSpaceSupport=true
+2024/03/18 11:31:51 - sourceFilesSupport=true
+2024/03/18 11:31:51 - persistVersionPSB=24.3.1
+2024/03/18 11:31:51 - sastAccess=true
+2024/03/18 11:31:51 - developerPlatformLicenseGenerationEnabled=true
+2024/03/18 11:31:51 - scaAccess=true
+2024/03/18 11:31:51 - codeFindingsNewDesign=true
+2024/03/18 11:31:51 - reachabilitySupport=false
+2024/03/18 11:31:51 - aiRemediation=false
+2024/03/18 11:31:51 - llmAccess=false
+2024/03/18 11:31:51 - appLogo=default
+2024/03/18 11:31:51 - isUploadScaClientLogs=true
+2024/03/18 11:31:51 - sastRemediation=false
+2024/03/18 11:31:51 - dashboardTrends=true
+2024/03/18 11:31:51 - isAsyncCheckPolicies=false
+2024/03/18 11:31:51 - codeGlobalScanConfig=false
+2024/03/18 11:31:51 - containerSecurityAccess=false
+2024/03/18 11:31:51 Contributors could not be retrieved: directory is not a git repository
+2024/03/18 11:31:51 Testing application files from D:\workspace\_test-projects\sql-injection\
+2024/03/18 11:31:51 Java* analysis in progress...
+2024/03/18 11:31:52 CLASSPATH value before unsetting: 
+2024/03/18 11:31:59 Engines version: 24.3.1.133 (Java)
+2024/03/18 11:32:03 
+Submitting code snippet files...
+2024/03/18 11:32:05 Code snippet files have been submitted for processing.

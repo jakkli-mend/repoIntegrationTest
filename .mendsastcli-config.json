@@ -1,6 +1,5 @@
 {
   "scans": {
-      "engines": ["1"],
       "javaEngineGeneration": 2,
       "maxFileSize": 1029,
       "timeouts": {

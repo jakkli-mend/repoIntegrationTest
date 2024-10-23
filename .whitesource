@@ -15,7 +15,7 @@
     "issueType": "DEPENDENCY"
   },
   "issueSettingsSAST": {
-    "minSeverityLevel": "medium",
+    "minSeverityLevel": "low",
     "issueType": "repo"
   },
   "remediateSettings": {

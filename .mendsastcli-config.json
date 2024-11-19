@@ -1,6 +1,6 @@
 {
   "scans": {
-      "javaEngineGeneration": 2,
+      "javaEngineGeneration": 1,
       "maxFileSize": 1029,
       "timeouts": {
          "perScan": 30

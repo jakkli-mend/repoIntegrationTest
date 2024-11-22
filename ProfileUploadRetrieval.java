@@ -89,7 +89,7 @@ public class ProfileUploadRetrieval extends AssignmentEndpoint {
 
 //            if (catPicture.getName().toLowerCase().contains("path-traversal-secret.jpg")) {
 //                return ResponseEntity.ok()
-//                        .contentType(MediaType.parseMediaType(MediaType.IMAGE_JPEG_VALUE))
+//                        .contentType(MediaType.parseaMediaType(MediaType.IMAGE_JPEG_VALUE))
 //                        .body(FileCopyUtils.copyToByteArray(catPicture));
 //            }
 //            if (catPicture.exists()) {

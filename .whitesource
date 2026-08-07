@@ -28,6 +28,7 @@
     "scanPullRequests": true,
     "incrementalScan": true,
     "enableRemediation": true,
+    "exportToGHAS": true,
     "configMode": "LOCAL",
     "configExternalURL": "",
     "baseBranches": []

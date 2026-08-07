@@ -70,3 +70,4 @@ public class OGNLExpressionInjectionServlet extends AbstractServlet {
         responseToClient(req, res, getMsg("title.commandinjection.page", locale), bodyHtml.toString());
     }
 }
+
